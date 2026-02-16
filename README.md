@@ -1,6 +1,6 @@
 # 🚀 Flutter Web + GitHub Actions Deployment
 
-A professional demonstration of automating Flutter Web application deployment to GitHub Pages using GitHub Actions. 🌐
+A professional demonstration of automating Flutter Web application deployment to GitHub Pages. 🌐
 
 <p align="left">
   <a href="https://ssstephennn67-ux.github.io/JsonBeautifier/"><b>🖥️ Live Demo</b></a> | 
@@ -9,10 +9,31 @@ A professional demonstration of automating Flutter Web application deployment to
 
 ---
 
-## 🌍 Language Options / 語言切換
+## 🌍 Select Language / 選擇語言 / 言語選択
 
 <details>
-<summary><b>🇭🇰 繁體中文 (Chinese) - 點擊展開全文</b></summary>
+<summary><b>🇺🇸 English (Click to Expand)</b></summary>
+<br>
+
+### ⚡ Features
+* **Flutter Web Ready:** Optimized for high-performance web output.
+* **CI/CD Pipeline:** Fully automated workflow via GitHub Actions.
+* **Zero Cost:** Host your portfolio or apps on GitHub Pages for free.
+
+### 🛠️ Deployment Workflow
+1. **Environment Setup:** Configures Flutter SDK in the runner.
+2. **Production Build:** Executes `flutter build web --release`.
+3. **Auto-Publish:** Deploys the build folder to the `gh-pages` branch instantly on every push to `main`.
+
+### 🚀 How to use this for your project
+1. **Clone** this repository.
+2. **Check** the `.github/workflows/main.yml` file to see the deployment logic.
+3. **Configure** your repository settings to serve from the `gh-pages` branch.
+4. **Push** your code and watch the magic happen! ✨
+</details>
+
+<details>
+<summary><b>🇭🇰 繁體中文 (點擊展開全文)</b></summary>
 <br>
 
 ### ⚡ 功能亮點
@@ -30,12 +51,10 @@ A professional demonstration of automating Flutter Web application deployment to
 2. **檢查** `.github/workflows/main.yml` 以了解自動化邏輯。
 3. **設定** GitHub 倉庫，將 Pages 來源指向 `gh-pages` 分支。
 4. **Push** 代碼，見證自動部署的魔法！✨
-
-[教學文章] https://medium.com/@ssstephennn67/deploying-flutter-web-to-github-pages-with-github-actions-164933d3656d
 </details>
 
 <details>
-<summary><b>🇯🇵 日本語 (Japanese) - クリックで展開</b></summary>
+<summary><b>🇯🇵 日本語 (クリックで展開)</b></summary>
 <br>
 
 ### ⚡ 主な特徴
@@ -53,29 +72,7 @@ A professional demonstration of automating Flutter Web application deployment to
 2. **Check**: `.github/workflows/main.yml` でフローの詳細を確認します。
 3. **Configure**: 設定から GitHub Pages のソースを `gh-pages` に変更します。
 4. **Push**: コードを push して、自動デプロイを確認しましょう！✨
-
-[解説記事] https://medium.com/@ssstephennn67/deploying-flutter-web-to-github-pages-with-github-actions-164933d3656d
 </details>
-
----
-
-## 🇺🇸 English (Default)
-
-### ⚡ Features
-* **Flutter Web Ready:** Optimized for high-performance web output.
-* **CI/CD Pipeline:** Fully automated workflow via GitHub Actions.
-* **Zero Cost:** Host your portfolio or apps on GitHub Pages for free.
-
-### 🛠️ Deployment Workflow
-1. **Environment Setup:** Configures Flutter SDK in the runner.
-2. **Production Build:** Executes `flutter build web --release`.
-3. **Auto-Publish:** Deploys the build folder to the `gh-pages` branch instantly on every push to `main`.
-
-### 🚀 How to use this for your project
-1.  **Clone** this repository.
-2.  **Check** the `.github/workflows/main.yml` file to see the deployment logic.
-3.  **Configure** your repository settings to serve from the `gh-pages` branch.
-4.  **Push** your code and watch the magic happen! ✨
 
 ---
 
