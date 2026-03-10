@@ -3,7 +3,7 @@
 A professional demonstration of automating Flutter Web application deployment to GitHub Pages. 🌐
 
 <p align="left">
-  <a href="https://ssstephennn67-ux.github.io/JsonBeautifier/"><b>🖥️ Live Demo</b></a> | 
+  <a href="https://ssstephennn67-ux.github.io/DemoFlutterWebHost/"><b>🖥️ Live Demo</b></a> | 
   <a href="https://medium.com/@ssstephennn67/deploying-flutter-web-to-github-pages-with-github-actions-164933d3656d"><b>📖 Medium Tutorial</b></a>
 </p>
 
